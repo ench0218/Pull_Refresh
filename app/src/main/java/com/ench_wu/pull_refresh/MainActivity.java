@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * 模拟服向务器请求数据
+     * @param isLoadingMore
+     */
     public void requestDateFromService(final boolean isLoadingMore) {
         new Thread() {
             @Override
